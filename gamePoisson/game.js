@@ -244,9 +244,9 @@ function handleKeyUp(e) {
 
     // Fonction pour quitter le jeu
     function quitGame() {
-      window.location.href = "/index.html";
+      window.location.href = "../index.html"; // Redirige vers la page d'accueil
     }
-
+    
     // Boucle principale du jeu
     function gameLoop(timestamp) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
