@@ -1,13 +1,13 @@
 document.getElementById("tortue").addEventListener("click", () => {
-  window.location.href = "/IA-Hackaton/gameTortue/game.html";
+  window.location.href = "./gameTortue/game.html";
 });
 
 document.getElementById("poisson").addEventListener("click", () => {
-  window.location.href = "/IA-Hackaton/gamePoisson/game.html";
+  window.location.href = "./gamePoisson/game.html";
 });
 
 document.getElementById("calmar").addEventListener("click", () => {
-  window.location.href = "/IA-Hackaton/gameCalmar/game.html";
+  window.location.href = "./gameCalmar/game.html";
 });
 
 // === Gestion de la popup RÈGLES ===
