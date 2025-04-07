@@ -1,5 +1,5 @@
 document.getElementById("tortue").addEventListener("click", () => {
-  window.location.href = "/gameTortue/game.html";
+  window.location.href = "/IA-Hackaton/gameTortue/game.html";
 });
 
 document.getElementById("poisson").addEventListener("click", () => {
