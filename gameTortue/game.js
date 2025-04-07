@@ -243,7 +243,7 @@ function handleKeyUp(e) {
 
     // Fonction pour quitter le jeu
     function quitGame() {
-      window.location.href = "https://vnathael.github.io/IA-Hackaton/";
+      window.location.href = "/IA-Hackaton/";
     }
 
     // Boucle principale du jeu
