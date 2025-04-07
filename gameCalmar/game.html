@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sinking Plastic</title>
+  <link rel="stylesheet" href="/gameCalmar/game.css">
+</head>
+<body>
+  <h1>Sinking Plastic</h1>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+  <img id="turtleImg" src="/images/calmar.png" style="display:none;">
+  <img id="turtle_dead" src="/images/calmar_dead.png" style="display:none;">
+  <img id="plastic1" src="/images/plastic1.png" style="display:none;">
+  <img id="plastic2" src="/images/plastic2.png" style="display:none;">
+  <img id="plastic3" src="/images/plastic3.png" style="display:none;">
+
+  <div id="controls">
+    <button id="quitButton">Quitter</button>
+    <button id="resetButton">Reset</button>
+    </div>
+    
+    <div id="infoPopup" class="hidden">
+        <div id="popupContent">
+          <p id="popupText"></p>
+          <button id="maButton">Revenir au jeu</button>
+        </div>
+      </div>
+
+  <script src="/gameCalmar/game.js"></script>
+</body>
+</html>

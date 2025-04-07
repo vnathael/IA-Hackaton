@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA Hackathon - Protégeons les océans</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <header>
+      <h1>IA contre le plastique</h1>
+      <p>Unissez-vous pour un océan sans plastique.</p>
+    </header>
+
+    <main class="content">
+      <section class="info">
+        <h2>🌍 Pourquoi ce projet ?</h2>
+        <p>
+          Chaque année, plus de 8 millions de tonnes de plastique finissent dans nos océans.
+          Grâce à l’intelligence artificielle, nous pouvons agir efficacement pour détecter,
+          recycler et prévenir cette pollution.
+        </p>
+        <p>
+          Notre projet utilise l'IA pour tout : de la détection d'objets plastiques en mer à l'éducation des plus jeunes via un mini-jeu interactif.
+        </p>
+      </section>
+
+      <section class="actions">
+        <button id="tortue" class="level-button">20 mètres : Tortues</button>
+        <button id="poisson" class="level-button">50 mètres : Poisson-lanterne</button>
+        <button id="calmar" class="level-button">100 mètres : Calmar</button>
+      </section>
+
+      <button id="reglesBtn" class="rules-button">📜 Règles</button>
+    </main>
+
+    <div id="reglesModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Règles du jeu</h2>
+        <p>Il y a trois jeux : un avec des tortues, un avec des calmars et un avec des poissons.</p>
+        <p>Chaque animal a des problèmes avec le plastique dans l’océan et doit éviter les déchets.</p>
+        <p>Tu déplaces ton animal avec les flèches du clavier.</p>
+        <p>À chaque 3 collisions, un popup s'affiche avec :</p>
+        <ul>
+          <li>une cause de la pollution plastique,</li>
+          <li>un effet sur la faune ou l’environnement,</li>
+          <li>ou une solution possible.</li>
+        </ul>
+        <p>Le but est de survivre le plus longtemps possible, sachant que la difficulté augmente avec le temps.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Un projet IA Hackathon pour la planète 🌱</p>
+    </footer>
+  </div>
+
+  <!-- IMPORTANT : script à la fin -->
+  <script src="index.js"></script>
+</body>
+</html>
