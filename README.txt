@@ -10,6 +10,7 @@ Localiser et faire un clic droit sur le fichier index.html.
 Sélectionner "Open with Live Server" pour lancer le jeu dans votre navigateur.
 
 Le projet peut aussi être ouvert à l'adresse suivante : https://vnathael.github.io/IA-Hackaton/, mais GitHub Pages rencontre parfois des bugs, ce qui peut empêcher le bon fonctionnement du jeu.
+Le HTML étant dans l'incapacité de trouver le css et js correspondant (même après vérification des routes et des potentiels problèmes), nous vous conseillons de le faire fonctionner en local.
 
 Règles du jeu
 Objectif
