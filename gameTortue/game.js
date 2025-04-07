@@ -243,7 +243,7 @@ function handleKeyUp(e) {
 
     // Fonction pour quitter le jeu
     function quitGame() {
-      window.location.href = "index.html"; // Redirige vers la page d'accueil
+      window.location.href = "../index.html"; // Redirige vers la page d'accueil
     }
 
     // Boucle principale du jeu
@@ -284,6 +284,12 @@ function handleKeyUp(e) {
     
         requestAnimationFrame(gameLoop);
     }
+    
+    
+  
+    // Event listeners pour les boutons
+    document.getElementById("quitButton").addEventListener("click", quitGame);
+    document.getElementById("resetButton").addEventListener("click", resetGame);
 
     document.addEventListener('keydown', handleKeyDown);
     document.addEventListener('keyup', handleKeyUp);
