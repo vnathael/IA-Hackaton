@@ -101,6 +101,8 @@ function handleKeyUp(e) {
     
         // Réinitialiser les touches
         keys = {};
+
+        plastics = [];
     }
     
   
@@ -166,6 +168,10 @@ function handleKeyUp(e) {
   
     // Vérification des collisions avec les plastiques
     function checkCollisions() {
+      if (isGamePaused) {
+        return;
+      }
+    
       if (turtle.isDead || (Date.now() - turtle.lastHitTime < 500)) {
         return;
       }
@@ -232,6 +238,7 @@ function handleKeyUp(e) {
         lastScoreIncrease = 0;
         lastSpawn = 0;
         plasticSpawnRate = 1000;
+        killedTurtles = 0;
     }
 
     // Fonction pour quitter le jeu
