@@ -6,7 +6,7 @@ Ce projet fait partie d'un hackathon ayant pour thème "Le plastique dans l'océ
 
 ## Lancer le projet
 
-1. Ouvrir le projet dans Visual Studio Code.
+1. Ouvrir le projet dans **Visual Studio Code**.
 2. Localiser et faire un clic droit sur le fichier `index.html`.
 3. Sélectionner **"Open with Live Server"** pour lancer le jeu dans votre navigateur.
 
@@ -19,20 +19,24 @@ Il y a trois jeux disponibles avec différents animaux marins, chacun ayant des 
 ### Commandes
 
 - Utilise les **flèches du clavier** pour déplacer ton animal à travers l'écran.
-- Il y a **trois animaux** : une tortue, un calmar, et un poisson. Chaque animal a des caractéristiques et des vitesses différentes.
+- Il y a **trois animaux** :
+  - **Tortue**
+  - **Calmar**
+  - **Poisson**
+  
+  Chaque animal a des caractéristiques et des vitesses différentes.
 
 ### Mécanisme du jeu
 
-- À chaque 3 collisions avec des déchets plastiques, un **popup** s'affiche avec :
+- À chaque **3 collisions** avec des déchets plastiques, un **popup** s'affiche avec :
   - Une **cause de la pollution plastique**,
   - Un **effet sur la faune ou l'environnement**,
   - Ou une **solution possible** pour contrer cette pollution.
-  
+
 ### Difficulté
 
 - La difficulté augmente au fur et à mesure du jeu. Les déchets deviennent plus rapides et apparaissent plus fréquemment.
-  
-Le jeu continue jusqu'à ce que l'animal meure en touchant un déchet plastique. 
+- Le jeu continue jusqu'à ce que l'animal meure en touchant un déchet plastique.
 
 ## Packages et Dépendances
 
